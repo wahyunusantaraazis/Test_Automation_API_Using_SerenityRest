@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "books": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "books"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "isbn": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "publish_date": {
+      "type": "integer"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "isbn"
+  ]
+}

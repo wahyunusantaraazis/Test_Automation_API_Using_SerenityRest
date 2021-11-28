@@ -21,3 +21,11 @@ Feature: POST certain Book in demoqa
     Given I have account in bookstore
     When I want to delete book with request body isbn and userid
     Then status code 204 and response body correctly
+
+  @TEST1
+  Scenario: End to End Post, Put, Delete Book
+    Given I have account in bookstore
+    When I want to add certain book by ISBN
+    And I want to change certain book by ISBN
+    And I want to delete book with request body isbn and userid
+    Then status code 204 and response body correctly

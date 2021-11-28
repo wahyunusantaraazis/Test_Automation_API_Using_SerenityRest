@@ -16,7 +16,6 @@ public class PostBook {
     String token;
     String userId;
     String ISBN;
-    HashMap requestpayload;
     JSONObject replaceisbn;
     JSONObject deleteisbn;
 
@@ -74,7 +73,7 @@ public class PostBook {
         ISBN = SerenityRest
                 .then()
                 .extract()
-                .path( "collectionOfIsbns[0].isbn");
+                .path( "books[0].isbn");
     }
 
     //PUT BOOK

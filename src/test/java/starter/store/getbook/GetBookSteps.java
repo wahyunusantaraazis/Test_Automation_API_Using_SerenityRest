@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
 public class GetBookSteps {
-
+    //comment
     @Steps
     GetBook getBook;
 
